@@ -9,5 +9,6 @@ body {
     background-color: goldenrod;
 }
 #car{
-    box-align: center; 
+    /* box-align: center; */
+    align-items: center; 
 }

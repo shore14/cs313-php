@@ -10,5 +10,6 @@ body {
 }
 #car{
     /* box-align: center; */
-    align-items: center; 
+    /* align-items: center; */
+    align-content: center; 
 }

@@ -2,6 +2,9 @@ h1 {
     text-align: center;
     color: darkmagenta;
 }
+h1:hover {
+    text-align: left;
+}
 body {
     background-color: goldenrod;
 }

@@ -11,5 +11,6 @@
    Your name is: <?php  echo $_POST["name"] , " " , $_POST["last"];?><br> 
    Your email is: <?php echo $_POST["email"];?><br>
    Your major is: <?php echo $_POST["major"];?><br>
+   thanks for you comment that said: <?php echo $_POST["textbox"];?>
 </body>
 </html>

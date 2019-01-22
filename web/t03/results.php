@@ -8,6 +8,8 @@
     <script src="main.js"></script>
 </head>
 <body>
-   Your name is: <?php  echo $_POST["name"] , " " , $_POST["last"];?> 
+   Your name is: <?php  echo $_POST["name"] , " " , $_POST["last"];?><br> 
+   Your email is: <?php echo $_POST["email"];?><br>
+   Your major is: <?php echo $_POST["major"];?><br>
 </body>
 </html>

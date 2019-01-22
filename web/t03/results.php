@@ -8,6 +8,6 @@
     <script src="main.js"></script>
 </head>
 <body>
-   Your name is: <?php  echo $_POST["name"]; ?> 
+   Your name is: <?php  echo $_POST["name"] . $_POST["last"]; ?> 
 </body>
 </html>

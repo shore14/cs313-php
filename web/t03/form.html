@@ -2,9 +2,9 @@
 <html>
     <body>
         <form action="results.php" method="POST" id="ourform">
-            First Name:<input type="text" name="name"><br>
-            Last Name:<input type="text" name="last"><br>
-            Email:<input type="text" name="email"><br><br>
+            First Name:<input type="text" name="name" value="<?php echo $name;?>"><br>
+            Last Name:<input type="text" name="last"  value="<?php echo $last;?>"><br>
+            Email:<input type="text" name="email"     value="<?php echo $email;?>"><br><br>
             <input type="radio" name="major" value="cs"> CS <br>            
             <input type="radio" name="major" value="cit"> CIT <br>            
             <input type="radio" name="major" value="se"> SE <br>            

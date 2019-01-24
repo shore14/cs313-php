@@ -31,6 +31,10 @@ body {
     background-color: aqua;
 }
 img {
-    width: 500px;
-    height: 400px;
+    width: 250px;
+    height: 150px;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
 }

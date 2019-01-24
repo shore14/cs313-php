@@ -30,3 +30,7 @@ body {
 .nav a:hover{
     background-color: aqua;
 }
+img {
+    width: 500px;
+    height: 400px;
+}

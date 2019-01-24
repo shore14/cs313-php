@@ -4,6 +4,6 @@
 <h2>Links to things</h2>
 <div class="nav">
     <a href="home.php">Home is Home</a>
-    <a href="page2.php">Construction Page</a>
+    <a href="carForSale.php">Shopping Page</a>
 </div>
 </div>

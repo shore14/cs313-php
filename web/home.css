@@ -6,7 +6,9 @@ h1:hover {
     text-align: left;
 }
 body {
-    background-color: goldenrod;
+    /* background-color: goldenrod; */
+    /* background-color: #F0E68C; */
+    background-color: #FFD700;
 }
 #car{
     display: block;

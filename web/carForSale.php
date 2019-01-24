@@ -9,7 +9,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
    </head>
 <body>
- <h1>Get You'r next midlife crisis here!</h1>
+ <h1>Get Your Next Midlife Crisis Here!</h1>
    <?php include 'header.php'?> 
+
 </body>
 </html>

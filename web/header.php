@@ -7,5 +7,6 @@
     <a href="carForSale.php">Shopping Page</a>
     <a href="collect.php">collect Page</a>
     <a href="shoppingCart.php">Cart</a>
+    <a href="checkout.php">checkout</a>
 </div>
 </div>

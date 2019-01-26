@@ -30,7 +30,9 @@ session_start();
       <td>
          <img id="chaser" src="https://acdriftingpro.com/uploads/monthly_2018_02/preview-10-39.thumb.jpg.256ba4261ffb151cb8cd6a83ba898263.jpg">   
          <div class="buy">
-         <button></button>
+            <form action="collect.php" method="post">
+               <input type="submit" value="<?php echo $chaser;?>">
+            </form>
          </div>
       </td>
    </tr>

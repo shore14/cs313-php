@@ -15,7 +15,7 @@ session_start();
  <h1>Get Your Next Midlife Crisis Here!</h1>
    <?php include 'header.php'?> 
 <form>
-<table action="collect.php" method="post" id="tableform">
+<table id="tableform">
 <caption>All cars are sold with manuals so don't ask for automatics</caption>
    <tr>
       <td>

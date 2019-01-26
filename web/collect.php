@@ -3,5 +3,5 @@ session_start();
 
  print_r($_SESSION);
 
-session_unset($_SESSION);
+//session_unset($_SESSION);
 ?>

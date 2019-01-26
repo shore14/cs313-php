@@ -7,7 +7,15 @@ session_start();
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title> 
-    <script src="ajax.js"></script>
+    <!-- <script src="ajax.js"></script> -->
+    <script>
+ function sendCar(str) {
+        var xmlhttp = new XMLHttpRequest();
+
+        xmlhttp.open("GET", "https://thawing-mountain-44844.herokuapp.com/func.php?c=" + str, true);
+        xmlhttp.send();
+    }
+    </script>
    </head>
 <body>
  <h1>Get Your Next Midlife Crisis Here!</h1>

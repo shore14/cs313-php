@@ -1,4 +1,4 @@
-<script>
+<script type="txt/javascript">
     function sendCar(str) {
         var xmlhttp = new XMLHttpRequest();
         // xmlhttp.onreadystatechange = function(){

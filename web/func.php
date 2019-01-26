@@ -2,7 +2,7 @@
 session_start();
   $car = $_REQUEST["c"];
 
-  function cars($car){
+  function cars($c){
       if($car == 'lotus'){
           $_SESSION['lotus'] = 'lotus'
       }
@@ -22,4 +22,5 @@ session_start();
           $_SESSION['gtr'] = 'gtr'
       }
   }
+  cars($car);
 ?>

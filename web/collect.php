@@ -1,3 +1,4 @@
 <?php
- echo $_POST["lotus"];
+session_start();
+ echo $_SESSION["lotus"];
 ?>

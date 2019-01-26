@@ -1,6 +1,6 @@
-<script type="txt/javascript">
+<script type="text/javascript">
     function sendCar(str) {
-        Var xmlhttp = new XMLHttpRequest();
+        var xmlhttp = new XMLHttpRequest();
         xmlhttp.open("GET", "func.php?c=" + str, true);
         xmlhttp.send();
     }

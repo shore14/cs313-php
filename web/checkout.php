@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>checkout</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css"  href="home.css" />
 </head>
 <body>
+    <div class="nav">
+    <a href="carForSale.php">Shopping Page</a>
+    <a href="checkout.php">Checkout</a>
+</div>
     <form action="thanks.php" method="post">
     First Name: <input type="text" name="first" value="<?php echo $first;?>"><br>
     Last Name: <input type="text" name="last" value="<?php echo $last;?>"><br>

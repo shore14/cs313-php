@@ -5,6 +5,7 @@
 <div class="nav">
     <a href="home.php">Home is Home</a>
     <a href="carForSale.php">Shopping Page</a>
-    <a href="collect.php">Shopping Page</a>
+    <a href="collect.php">collect Page</a>
+    <a href="shoppingCart.php">Cart</a>
 </div>
 </div>

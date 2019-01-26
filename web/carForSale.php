@@ -14,7 +14,7 @@ session_start();
 <body>
  <h1>Get Your Next Midlife Crisis Here!</h1>
    <?php include 'header.php'?> 
-    <?phprequire_once($_SERVER['DOCUMENT_ROOT'] . "func.php")?>
+   <?php include ($_SERVER['DOCUMENT_ROOT'] . "func.php")?>
 <!-- <form> -->
 <table id="tableform">
 <caption>All cars are sold with manuals so don't ask for automatics</caption>

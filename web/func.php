@@ -3,25 +3,25 @@ session_start();
   $car = $_REQUEST["c"];
 
   function cars($c){
-      if($car == 'lotus'){
+      if($c == 'lotus'){
           $_SESSION['lotus'] = 'lotus'
       }
-      if($car == 'chaser'){
+      if($c == 'chaser'){
           $_SESSION['chaser'] = 'chaser'
       }
-      if($car == 'lambo'){
+      if($c == 'lambo'){
           $_SESSION['lambo'] = 'lambo'
       }
-      if($car == 'ferrari'){
+      if($c == 'ferrari'){
           $_SESSION['ferrari'] = 'ferrari'
       }
-      if($car == 'mazz'){
+      if($c == 'mazz'){
           $_SESSION['mazz'] = 'mazz'
       }
-      if($car == 'gtr'){
+      if($c == 'gtr'){
           $_SESSION['gtr'] = 'gtr'
       }
   }
   cars($car);
-  print_r($_SESSION);
+//  print_r($_SESSION);
 ?>

@@ -12,7 +12,7 @@
     Last Name: <input type="text" name="last" value="<?php echo $last;?>"><br>
     Email: <input type="text" name="email" value="<?php echo $email;?>"><br>
     Address: <input type="text" name="add" value="<?php echo $add;?>"><br>
-    <input type="submit" name="submit" value="Submit">
+    <input type="submit">
     </form>
 </body>
 </html>

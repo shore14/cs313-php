@@ -1,8 +1,8 @@
 <?php
-  $first = htmlspecialchars($_GET['first']);
-  $last  = htmlspecialchars($_GET['last']);
-  $email = htmlspecialchars($_GET['email']);
-  $add = htmlspecialchars($_GET['add']);
+  $first = htmlspecialchars($_POST['first']);
+  $last  = htmlspecialchars($_POST['last']);
+  $email = htmlspecialchars($_POST['email']);
+  $add = htmlspecialchars($_POST['add']);
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,7 +16,7 @@
 </head>
 <body>
    <?php
-        echo "Thanks $first $last for ordering"<br>;
+        echo "Thanks $first $last for ordering";
         echo "We will send your Car to $add";
    ?>
 </body>

@@ -31,7 +31,7 @@ session_start();
          <img id="chaser" src="https://acdriftingpro.com/uploads/monthly_2018_02/preview-10-39.thumb.jpg.256ba4261ffb151cb8cd6a83ba898263.jpg">   
          <div class="buy">
             <form action="collect.php" method="post">
-               <input type="submit" name="<?php echo $chaser = 'chaser' ;?>">
+               <input type="submit" value="chaser">
             </form>
          </div>
       </td>

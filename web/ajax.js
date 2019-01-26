@@ -1,3 +1,4 @@
+<html>
 <script type="text/javascript">
     function sendCar(str) {
         var xmlhttp = new XMLHttpRequest();
@@ -5,3 +6,4 @@
         xmlhttp.send();
     }
 </script>
+</html>

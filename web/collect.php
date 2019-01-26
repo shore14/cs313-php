@@ -1,8 +1,7 @@
 <?php
 session_start();
-$chaser = $_POST['chaser'];
+$car = $_POST['car'];
 
- $_SESSION["lotus"] = $_POST['lotus'];
- $_SESSION["chaser"] = $chaser;
+ $_SESSION["car"] = $car; 
  print_r($_SESSION);
 ?>

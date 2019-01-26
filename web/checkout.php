@@ -9,8 +9,7 @@
 </head>
 <body>
     <div class="nav">
-    <a href="carForSale.php">Shopping Page</a>
-    <a href="checkout.php">Checkout</a>
+    <a href="shoppingCart.php">Back to Cart</a>
 </div>
     <form action="thanks.php" method="post">
     First Name: <input type="text" name="first" value="<?php echo $first;?>"><br>

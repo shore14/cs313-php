@@ -23,4 +23,5 @@ session_start();
       }
   }
   cars($car);
+  print_r($_SESSION);
 ?>

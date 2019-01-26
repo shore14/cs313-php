@@ -16,7 +16,7 @@
 </head>
 <body>
    <?php
-        echo "Thanks $first $last for ordering";
+        echo "Thanks $first $last for ordering";<br>
         echo "We will send your Car to $add";
    ?>
 </body>

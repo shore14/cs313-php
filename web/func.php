@@ -1,5 +1,7 @@
 <?php
 session_start();
+  $car = $_REQUEST["c"];
+
   function cars($car){
       if($car == 'lotus'){
           $_SESSION['lotus'] = 'lotus'

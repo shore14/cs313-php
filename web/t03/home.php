@@ -11,11 +11,10 @@
 try {
     $dbUrl = getenv('DATABASE_URL');
     $dbOpts = parse_url($dbUrl);
-    var_dump($dbOpts);
-
-    $dbHost = $dpOpts["host"];
-    $dbPort = $dpOpts["port"];
-    $dbUser = $dpOpts["user"];
+    
+    $dbHost = $dbOpts["host"];
+    $dbPort = $dbOpts["port"];
+    $dbUser = $dbOpts["user"];
     $dbPassword = $dbOpts["pass"];
     $dbName = ltrim($dbOpts["path"], '/');
     echo 'db Url is: ' . $dbUrl;

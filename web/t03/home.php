@@ -17,9 +17,6 @@ try {
     $dbUser = $dbOpts["user"];
     $dbPassword = $dbOpts["pass"];
     $dbName = ltrim($dbOpts["path"], '/');
-    echo 'db Url is: ' . $dbUrl;
-    echo 'db host is: ' . $dbHost;
-    echo 'db port is: ' . $dbPort;
     $db = new PDO("pgsql:host=$dbHost;port=$dbPort;dbname=$dbName", $dbUser, $dbPassword);
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }

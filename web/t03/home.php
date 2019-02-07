@@ -11,6 +11,8 @@
 try {
     $dbUrl = getenv('DATABASE_URL');
     $dbOpts = parse_url($dbUrl);
+    var_dump($dbOpts);
+
     $dbHost = $dpOpts["host"];
     $dbPort = $dpOpts["port"];
     $dbUser = $dpOpts["user"];

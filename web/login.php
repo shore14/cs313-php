@@ -16,13 +16,17 @@
 <body>
 <?php include 'header.php'?>
 <a href="signup.php">Need to become part of the club click here!</a>
-<form action="chlogin.php">
+
+<form action="chlogin.php" method="GET">
     <div class="boxlogin">
         <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
+        <input type="text" placeholder="Enter Username" name="uname" value="<?php echo $first;?>" required>
 
         <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+        <input type="password" placeholder="Enter Password" name="psw" value="<?php echo $pass;?>"required>
+
+        <label for="psw"><b>Identifier</b></label>
+        <input type="text" placeholder="Enter Your unique" name="iden" value="<?php echo $ident;?>"required>
 
         <button type="submit">Login</button>
     </div>

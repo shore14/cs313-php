@@ -19,13 +19,13 @@
 
 <form action="chlogin.php" method="GET">
     <div class="boxlogin">
-        <label for="uname"><b>Username</b></label>
+        <label ><b>Username</b></label>
         <input type="text" placeholder="Enter Username" name="first" value="<?php echo $first;?>" required>
 
-        <label for="psw"><b>Password</b></label>
+        <label ><b>Password</b></label>
         <input type="text" placeholder="Enter Password" name="pass" value="<?php echo $pass;?>"required>
 
-        <label for="psw"><b>Identifier</b></label>
+        <label ><b>Identifier</b></label>
         <input type="text" placeholder="Enter Your unique" name="iden" value="<?php echo $iden;?>"required>
 
         <button type="submit">Login</button>

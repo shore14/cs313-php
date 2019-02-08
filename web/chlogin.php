@@ -13,11 +13,12 @@
   $statment->execute();
   $rows = $statment->fetchAll(PDO::FETCH_ASSOC);
 
-   if($rows['first'] != '') {
-       echo "Thanks for login in";
-   }
-   else {
-       echo "Wrong info";
-   }
+   echo $rows['first'];
+//    if($rows['first'] != '') {
+//        echo "Thanks for login in";
+//    }
+//    else {
+//        echo "Wrong info";
+//    }
 
 ?>

@@ -12,7 +12,7 @@
   $statment = bindValue(':iden', $iden, PDO::PARAM_STR);
   $statment->execute();
   $rows = $statment->fetchAll(PDO::FETCH_ASSOC);
-
+   if($rows->num_rows > 0)
    echo $rows[0].['first'];
 //    if($rows['first'] != '') {
 //        echo "Thanks for login in";

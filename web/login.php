@@ -7,7 +7,6 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css"  href="login.css" />
@@ -22,7 +21,7 @@
         <input type="text" placeholder="Enter Username" name="first" value="<?php echo $first;?>" required>
 
         <label ><b>Password</b></label>
-        <input type="text" placeholder="Enter Password" name="pass" value="<?php echo $pass;?>"required>
+        <input type="text" placeholder="Enter Password" name="passw" value="<?php echo $passw;?>"required>
 
         <label ><b>Identifier</b></label>
         <input type="text" placeholder="Enter Your unique" name="iden" value="<?php echo $iden;?>"required>

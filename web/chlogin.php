@@ -3,12 +3,12 @@
   $db = get_db();
 
   $first = $_GET['first'];
-  $pass = $_GET['pass'];
+  $passw = $_GET['passw'];
   $iden = $_GET['iden'];
 
-  $statment = $db->prepare('SELECT * FROM people WHERE first=:first AND pass=:pass');
+  $statment = $db->prepare('SELECT * FROM people WHERE first=:first AND passw=:passw');
   $statment = bindValue(':first', $first, PDO::PARAM_STR);
-  $statment = bindValue(':pass', $pass, PDO::PARAM_STR);
+  $statment = bindValue(':passw', $passw, PDO::PARAM_STR);
   $statment = bindValue(':iden', $iden, PDO::PARAM_STR);
   $statment->execute();
   $rows = $statment->fetchAll(PDO::FETCH_ASSOC);

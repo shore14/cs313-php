@@ -5,6 +5,9 @@
   $first = $_GET['first'];
   $passw = $_GET['passw'];
   $iden = $_GET['iden'];
+  echo $first;
+  echo $passw;
+  echo $iden;
 
   $statment = $db->prepare("SELECT * FROM people WHERE first=:first AND passw=:passw");
   $statment = bindValue(':first', $first, PDO::PARAM_STR);

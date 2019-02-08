@@ -23,7 +23,7 @@
         <input type="text" placeholder="Enter Username" name="first" value="<?php echo $first;?>" required>
 
         <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="pass" value="<?php echo $pass;?>"required>
+        <input type="text" placeholder="Enter Password" name="pass" value="<?php echo $pass;?>"required>
 
         <label for="psw"><b>Identifier</b></label>
         <input type="text" placeholder="Enter Your unique" name="iden" value="<?php echo $iden;?>"required>

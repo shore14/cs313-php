@@ -8,6 +8,7 @@
     
 
 <?php
+function get_db() {
 try {
     $dbUrl = getenv('DATABASE_URL');
     $dbOpts = parse_url($dbUrl);
@@ -24,11 +25,11 @@ catch(PDOException $e) {
     echo 'Error!: ' . $e->getMessage();
     die();
 }
-
-foreach($db->query('select * from scriptures') as $row) {
-    echo $row['book'] . " " . $row['chapter'] . ":" . $row['verse'] . '<br>';
-    echo $row['content'] . '<br><br>';
 }
+// foreach($db->query('select * from scriptures') as $row) {
+//     echo $row['book'] . " " . $row['chapter'] . ":" . $row['verse'] . '<br>';
+//     echo $row['content'] . '<br><br>';
+// }
 
 
 

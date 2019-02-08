@@ -8,5 +8,6 @@
     <a href="collect.php">collect Page</a>
     <a href="shoppingCart.php">Cart</a>
     <a href="checkout.php">checkout</a>
+    <a href="login.php">Login Here</a>
 </div>
 </div>

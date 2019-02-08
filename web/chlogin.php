@@ -13,7 +13,7 @@
   $statment->execute();
   $rows = $statment->fetchAll(PDO::FETCH_ASSOC);
 
-   if($rows['first'] != null) {
+   if($rows['first'] != NULL) {
        echo "Thanks for login in";
    }
    else {

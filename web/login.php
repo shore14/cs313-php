@@ -10,14 +10,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css"  href="login.css" />
     <script src="main.js"></script>
 </head>
 <body>
 <?php include 'header.php'?>
 <a href="signup.php">Need to become part of the club click here!</a>
 <form action="chlogin.php">
-    <div>
+    <div class="boxlogin">
         <label for="uname"><b>Username</b></label>
         <input type="text" placeholder="Enter Username" name="uname" required>
 

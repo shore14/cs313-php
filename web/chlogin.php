@@ -13,7 +13,7 @@
   $statment->execute();
   $rows = $statment->fetchAll(PDO::FETCH_ASSOC);
 
-   echo $rows['first'];
+   echo $rows[0].['first'];
 //    if($rows['first'] != '') {
 //        echo "Thanks for login in";
 //    }

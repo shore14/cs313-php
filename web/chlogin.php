@@ -6,7 +6,7 @@
   $pass = $_GET['pass'];
   $iden = $_GET['iden'];
 
-  $statment = $db->prepare('SELECT * FROM people WHERE first=:first AND pass=:pass AND iden=:iden');
+  $statment = $db->prepare('SELECT * FROM people WHERE first=:first AND pass=:pass');
   $statment = bindValue(':first', $first, PDO::PARAM_STR);
   $statment = bindValue(':pass', $pass, PDO::PARAM_STR);
   $statment = bindValue(':iden', $iden, PDO::PARAM_STR);

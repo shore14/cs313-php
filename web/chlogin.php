@@ -1,6 +1,6 @@
 <?php
   require 'db.php';
-  $db = get_db();
+  $db = getdb();
 
   $first = $_GET['first'];
   $passw = $_GET['passw'];

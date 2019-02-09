@@ -1,5 +1,5 @@
 <?php
-function get_db() {
+function getdb() {
     $db = NULL;
 try {
     $dbUrl = getenv('DATABASE_URL');

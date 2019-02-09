@@ -14,7 +14,7 @@
   $statment->bindValue(':lastname', $lastname, PDO::PARAM_STR);
   $statment->bindValue(':passw', $passw, PDO::PARAM_STR);
   $statment->bindValue(':iden', $iden, PDO::PARAM_STR);
-  $statment->execute();
+//   $statment->execute();
   //$rows = $statment->fetchAll(PDO::FETCH_ASSOC);
 
 //   foreach($db->query('select * from scriptures') as $row) {

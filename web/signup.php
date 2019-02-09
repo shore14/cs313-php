@@ -9,7 +9,7 @@ $db = getdb();
         <input type="text" placeholder="Enter Username" name="first" value="<?php echo $first;?>" required>
 
         <label ><b>LastName</b></label>
-        <input type="text" placeholder="Enter LastName" name="first" value="<?php echo $last;?>" required
+        <input type="text" placeholder="Enter LastName" name="first" value="<?php echo $last;?>" required>
 
         <label ><b>Password</b></label>
         <input type="text" placeholder="Enter Password" name="passw" value="<?php echo $passw;?>"required>

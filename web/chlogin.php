@@ -10,7 +10,7 @@
   //echo $iden;
 
    foreach($db->query('select * from people') as $row) {
-         echo $row['firs'] . " " . $row['pass'] . ":" . $row['iden'] . '<br>';
+         echo $row['first'] . " " . $row['pass'] . ":" . $row['iden'] . '<br>';
      }
 
   $statment = $db->prepare("SELECT * FROM people WHERE first=:first AND pass=:passw");

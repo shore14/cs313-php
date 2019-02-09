@@ -5,9 +5,9 @@
   $first = $_GET['first'];
   $passw = $_GET['passw'];
   $iden = $_GET['iden'];
-  echo $first;
-  echo $passw;
-  echo $iden;
+ // echo $first;
+  //echo $passw;
+  //echo $iden;
 
    foreach($db->query('select * from people') as $row) {
          echo $row['firs'] . " " . $row['pass'] . ":" . $row['iden'] . '<br>';

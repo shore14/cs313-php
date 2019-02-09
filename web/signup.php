@@ -1,6 +1,12 @@
-<?php
-require 'db.php';
-$db = getdb();
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Signup</title>
+</head>
+<body>
+    
+
 <?php include 'header.php'?>
 
 <form action="chsignup.php" method="GET">
@@ -20,4 +26,5 @@ $db = getdb();
         <button type="submit">Login</button>
     </div>
 </form>
-?>
+</body>
+</html>

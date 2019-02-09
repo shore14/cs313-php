@@ -13,7 +13,7 @@
          echo $row['first'] . " " . $row['pass'] . ":" . $row['iden'] . '<br>';
      }
 
-  $statment = $db->prepare('SELECT first, pass, iden FROM people');
+  $statment = $db->prepare('SELECT first, pass, iden FROM people WHERE iden = $iden');
  // $statment = bindValue(':first', $first, PDO::PARAM_STR);
  // $statment = bindValue(':passw', $passw, PDO::PARAM_STR);
   //$statment = bindValue(':iden', $iden, PDO::PARAM_STR);
@@ -21,7 +21,7 @@
 //  $rows = $statment->fetchAll(PDO::FETCH_ASSOC);
 
 
-
+  
   while ($rows = $statment->fetch(PDO::FETCH_ASSOC)){
       echo $rows['first'];
   }

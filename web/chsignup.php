@@ -17,9 +17,9 @@
   $statment->execute();
   //$rows = $statment->fetchAll(PDO::FETCH_ASSOC);
 
-  foreach($db->query('select * from scriptures') as $row) {
-     echo $row['id'] . " " . $row['firstname'] . " " . $row['pass'] . " " . $row['iden'] . '<br><br>';
- }
+//   foreach($db->query('select * from scriptures') as $row) {
+//      echo $row['id'] . " " . $row['firstname'] . " " . $row['pass'] . " " . $row['iden'] . '<br><br>';
+//  }
   
 
     // if($statment->rowCount() > 0) {

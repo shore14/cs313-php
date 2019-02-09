@@ -18,13 +18,13 @@
  // $statment = bindValue(':passw', $passw, PDO::PARAM_STR);
   $statment->bindValue(':firstname', $firstname, PDO::PARAM_STR);
   $statment->execute();
-//  $rows = $statment->fetchAll(PDO::FETCH_ASSOC);
+  $rows = $statment->fetchAll(PDO::FETCH_ASSOC);
 
 
   
-  while ($rows = $statment->fetch(PDO::FETCH_ASSOC)){
-      echo $rows['firstname'];
-  }
+  // while ($rows = $statment->fetch(PDO::FETCH_ASSOC)){
+  //     echo $rows['firstname'];
+//  }
     if($rows['firstname'] != '') {
         echo "Thanks for login in";
     }

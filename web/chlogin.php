@@ -18,7 +18,7 @@
  // $statment = bindValue(':passw', $passw, PDO::PARAM_STR);
   $statment->bindValue(':firstname', $firstname, PDO::PARAM_STR);
   $statment->execute();
-  $rows = $statment->fetchAll(PDO::FETCH_ASSOC);
+  $rows = $statment->fetch(PDO::FETCH_ASSOC);
 
 
   

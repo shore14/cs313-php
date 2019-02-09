@@ -9,7 +9,7 @@
  
 
   $statment = $db->prepare('INSERT INTO people (firstname, lastname, pass, iden) 
-                            VALUES(:firstname, :lastname, :passw, ;iden)');
+                            VALUES(:firstname, :lastname, :passw, :iden)');
   $statment->bindValue(':firstname', $firstname, PDO::PARAM_STR);
   $statment->bindValue(':lastname', $lastname, PDO::PARAM_STR);
   $statment->bindValue(':passw', $passw, PDO::PARAM_STR);

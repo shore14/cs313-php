@@ -1,5 +1,5 @@
 <?php
-  require ('db.php');
+  require 'db.php';
   $db = get_db();
 
   $first = $_GET['first'];
@@ -12,7 +12,7 @@
   $statment = $db->prepare("SELECT * FROM people WHERE first=:first AND passw=:passw");
   $statment = bindValue(':first', $first, PDO::PARAM_STR);
   $statment = bindValue(':passw', $passw, PDO::PARAM_STR);
-  $statment = bindValue(':iden', $iden, PDO::PARAM_STR);
+  //$statment = bindValue(':iden', $iden, PDO::PARAM_STR);
   $statment->execute();
 //  $rows = $statment->fetchAll(PDO::FETCH_ASSOC);
   while ($rows = $statment->fetch(PDO::FETCH_ASSOC)){

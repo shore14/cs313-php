@@ -25,11 +25,11 @@
   while ($rows = $statment->fetch(PDO::FETCH_ASSOC)){
       echo $rows['firstname'];
   }
-//    if($rows['first'] != '') {
-//        echo "Thanks for login in";
-//    }
-//    else {
-//        echo "Wrong info";
-//    }
+    if($rows['first'] != '') {
+        echo "Thanks for login in";
+    }
+    else {
+        echo "Wrong info";
+    }
 
 ?>

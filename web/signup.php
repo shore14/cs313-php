@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Signup</title>
+    <link rel="stylesheet" type="text/css"  href="login.css" />
 </head>
 <body>
     

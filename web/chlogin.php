@@ -25,7 +25,7 @@
   // while ($rows = $statment->fetch(PDO::FETCH_ASSOC)){
   //     echo $rows['firstname'];
 //  }
-    if($rows->rowCount() > 0) {
+    if($statment->rowCount() > 0) {
         echo "Thanks for login in";
     }
     else {

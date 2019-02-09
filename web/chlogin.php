@@ -16,7 +16,7 @@
   $statment = $db->prepare('SELECT first, pass, iden FROM people WHERE iden = :$iden');
  // $statment = bindValue(':first', $first, PDO::PARAM_STR);
  // $statment = bindValue(':passw', $passw, PDO::PARAM_STR);
-  $statment->bindValue(':iden', $iden, PDO::PARAM_STR);
+  $statment->bindValue(':first', $iden, PDO::PARAM_STR);
   $statment->execute();
 //  $rows = $statment->fetchAll(PDO::FETCH_ASSOC);
 

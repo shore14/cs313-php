@@ -17,7 +17,7 @@
   $statment->execute();
   //$rows = $statment->fetchAll(PDO::FETCH_ASSOC);
 
-   foreach($db->query('select * from scriptures') as $row) {
+   foreach($db->query('select * from people') as $row) {
       echo $row['id'] . " " . $row['firstname'] . " " . $row['pass'] . " " . $row['iden'] . '<br><br>';
   }
   

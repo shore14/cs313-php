@@ -9,9 +9,9 @@
   //echo $passw;
   //echo $iden;
 
-   foreach($db->query('select * from people') as $row) {
-         echo $row['firstname'] . " " . $row['pass'] . ":" . $row['iden'] . '<br>';
-     }
+  //  foreach($db->query('select * from people') as $row) {
+  //        echo $row['firstname'] . " " . $row['pass'] . ":" . $row['iden'] . '<br>';
+  //    }
 
   $statment = $db->prepare('SELECT firstname FROM people WHERE firstname = :firstname');
  // $statment = bindValue(':first', $first, PDO::PARAM_STR);

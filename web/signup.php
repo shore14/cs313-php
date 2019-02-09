@@ -16,7 +16,7 @@
         <input type="text" placeholder="Enter Username" name="first" value="<?php echo $first;?>" required>
 
         <label ><b>LastName</b></label>
-        <input type="text" placeholder="Enter LastName" name="first" value="<?php echo $last;?>" required>
+        <input type="text" placeholder="Enter LastName" name="last" value="<?php echo $last;?>" required>
 
         <label ><b>Password</b></label>
         <input type="text" placeholder="Enter Password" name="passw" value="<?php echo $passw;?>"required>
@@ -24,7 +24,7 @@
         <label ><b>Identifier</b></label>
         <input type="text" placeholder="Enter Your unique" name="iden" value="<?php echo $iden;?>"required>
 
-        <button type="submit">Login</button>
+        <button type="submit">Signup</button>
     </div>
 </form>
 </body>

@@ -1,5 +1,5 @@
 <?php
-  require 'db.php';
+  require ('db.php');
   $db = get_db();
 
   $first = $_GET['first'];

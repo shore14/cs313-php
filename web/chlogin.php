@@ -16,7 +16,7 @@
   $statment = $db->prepare('SELECT firstname FROM people WHERE firstname = :firstname');
  // $statment = bindValue(':first', $first, PDO::PARAM_STR);
  // $statment = bindValue(':passw', $passw, PDO::PARAM_STR);
-  $statment->bindValue(':firstname', $firstname, PDO::PARAM_STR);
+  $statment = bindValue(':firstname', $firstname, PDO::PARAM_STR);
   $statment->execute();
   $rows = $statment->fetchAll(PDO::FETCH_ASSOC);
 

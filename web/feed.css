@@ -16,14 +16,14 @@
     text-align: center;
     color: darkmagenta;
  }
-  .input-box{
+  .input-card{
     width: 300;
  }
  input{
      display: inline-block;
      margin: 8px 0; 
      width: 100%;
-     box-sizing: input-box;
+     box-sizing: input-card;
  }
 
 /* .chat-container

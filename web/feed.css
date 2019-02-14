@@ -18,6 +18,8 @@
  }
  input{
      display: inline-block;
+     margin: 8px 0;
+
  }
 /* .chat-container
   height 400px

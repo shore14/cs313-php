@@ -22,9 +22,13 @@
       header('Location:feed.php');
     }
     else {
-        echo "Wrong info";
+        // echo "Wrong info";
         
-        header('Location:login.php');
+        // header('Location:login.php');
+        <script type="text/javascript">
+        alert("Wrong information");
+        location="login.php";
+        </script>
     }
 
 ?>

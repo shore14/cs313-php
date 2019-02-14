@@ -26,7 +26,7 @@
         // include("login.php");
         
         header('Location:login.php');
-        echo "<script type='text/javascript'>alert(\"Wrong Username or Password\")</script>";
+        echo "<script type='text/javascript'>alert(\"Wrong Username or Password\");</script>";
     }
 
 ?>

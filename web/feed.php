@@ -13,6 +13,13 @@
 <body>
     <div class="feedbox">
        <h1>Put nice things here!<h1> 
+       <div class="items">
+
+       </div>
+       <form class="insert-card">
+           <input type="text" placeholder="title">
+           <input type="text" placeholder="comment">
+       </form>
     </div>
 </body>
 </html>

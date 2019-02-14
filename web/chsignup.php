@@ -21,19 +21,21 @@
     echo "<script type='text/javascript'>alert(\"Identifier already taken\")</script>";
     include("signup.php");
   }
-
-  $statment = $db->prepare('INSERT INTO people (firstname, lastname, pass, iden) 
+  else
+  {
+     $statment = $db->prepare('INSERT INTO people (firstname, lastname, pass, iden) 
                             VALUES(:firstname, :lastname, :passw, :iden)');
-  $statment->bindValue(':firstname', $firstname, PDO::PARAM_STR);
-  $statment->bindValue(':lastname', $lastname, PDO::PARAM_STR);
-  $statment->bindValue(':passw', $passw, PDO::PARAM_STR);
-  $statment->bindValue(':iden', $iden, PDO::PARAM_STR);
-  $statment->execute();
-  //$rows = $statment->fetchAll(PDO::FETCH_ASSOC);
-  header('Location:signup.php');
-   foreach($db->query('select * from people') as $row) {
-      echo $row['id'] . " " . $row['firstname'] . " " . $row['pass'] . " " . $row['iden'] . '<br><br>';
+     $statment->bindValue(':firstname', $firstname, PDO::PARAM_STR);
+     $statment->bindValue(':lastname', $lastname, PDO::PARAM_STR);
+     $statment->bindValue(':passw', $passw, PDO::PARAM_STR);
+     $statment->bindValue(':iden', $iden, PDO::PARAM_STR);
+     $statment->execute();
   }
+  //$rows = $statment->fetchAll(PDO::FETCH_ASSOC);
+  // header('Location:signup.php');
+  //  foreach($db->query('select * from people') as $row) {
+  //     echo $row['id'] . " " . $row['firstname'] . " " . $row['pass'] . " " . $row['iden'] . '<br><br>';
+  // }
   
 
 ?>

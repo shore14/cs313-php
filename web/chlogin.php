@@ -33,7 +33,7 @@
         // alert("Wrong information");
         // location="login.php";
 
-        </script>
+        // </script>
     }
 
 ?>

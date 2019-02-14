@@ -22,7 +22,7 @@
       header('Location:feed.php');
     }
     else {
-      header('Location:signup.php');
+      header('Location:login.php');
       echo "<script type='text/javascript'>alert(\"Wrong Information\")</script>";
         // include("login.php");
         

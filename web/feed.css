@@ -16,11 +16,16 @@
     text-align: center;
     color: darkmagenta;
  }
+  .input-box{
+    width: 300;
+ }
  input{
      display: inline-block;
-     margin: 8px 0;
-
+     margin: 8px 0; 
+     width: 100%;
+     box-sizing: input-box;
  }
+
 /* .chat-container
   height 400px
   overflow auto

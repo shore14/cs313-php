@@ -16,10 +16,12 @@
        <div class="items">
 
        </div>
+       <div class="input-box">
        <form class="insert-card">
            <input type="text" placeholder="title">
            <input type="text" placeholder="comment">
        </form>
+       <div>
     </div>
 </body>
 </html>

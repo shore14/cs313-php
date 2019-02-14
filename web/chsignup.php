@@ -30,6 +30,7 @@
      $statment->bindValue(':passw', $passw, PDO::PARAM_STR);
      $statment->bindValue(':iden', $iden, PDO::PARAM_STR);
      $statment->execute();
+     header('Location:login.php');
   }
   //$rows = $statment->fetchAll(PDO::FETCH_ASSOC);
   // header('Location:signup.php');

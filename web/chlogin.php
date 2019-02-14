@@ -23,7 +23,7 @@
     }
     else {
         echo "Wrong info";
-        alert("Wrong info");
+        
         header('Location:login.php');
     }
 

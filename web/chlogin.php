@@ -22,18 +22,11 @@
       header('Location:feed.php');
     }
     else {
-        // echo "Wrong info";
+        // echo "<script type='text/javascript'>alert(\"Wrong Username or Password\")</script>";
+        // include("login.php");
         
-        // header('Location:login.php');
+        header('Location:login.php');
         echo "<script type='text/javascript'>alert(\"Wrong Username or Password\")</script>";
-        //header("location:page1.php");
-        include("login.php");
-
-        // <script type="text/javascript">
-        // alert("Wrong information");
-        // location="login.php";
-
-        // </script>
     }
 
 ?>

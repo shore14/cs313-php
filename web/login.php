@@ -1,5 +1,6 @@
-   <!-- require "db.php";
-    $db = get_db(); -->
+ <?php require "db.php";
+    $db = get_db(); 
+    ?>
 
 <!DOCTYPE html>
 <html>

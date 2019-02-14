@@ -19,7 +19,7 @@
   if($checkExisting->rowCount() > 0)
   {
     echo "<script type='text/javascript'>alert(\"Identifier already taken\")</script>";
-    include("signup.php");
+    include_once("signup.php");
   }
   else
   {

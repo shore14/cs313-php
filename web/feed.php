@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8">
     <title>See nice things</title>
-    <link rel="stylesheet" type="text/css"  href="feed.css">
+    <link rel="stylesheet" type="text/css"  href="feed.css"/>
 </head>
 <body>
     <div class="feedbox">

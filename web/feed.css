@@ -16,6 +16,9 @@
     text-align: center;
     color: darkmagenta;
  }
+ input{
+     display: inline-block;
+ }
 /* .chat-container
   height 400px
   overflow auto

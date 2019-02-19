@@ -22,8 +22,9 @@
       header('Location:feed.php');
     }
     else {
+      echo "alert('wrong info')";
       header('Location:login.php');
-      echo "<script type='text/javascript'>alert(\"Wrong Information\")</script>";
+      // echo "<script type='text/javascript'>alert(\"Wrong Information\")</script>";
         // include("login.php");
         
         // header('Location:login.php');

@@ -16,9 +16,9 @@
        <div class="items">
 
        </div>
-       <form class="insert-card">
-           <input type="text" placeholder="title">
-           <input type="text" placeholder="comment">
+       <form action="create.php" method="POST" class="insert-card">
+           <input type="text" placeholder="title" name="title">
+           <input type="text" placeholder="comment" name="body">
        </form>
     </div>
 </body>

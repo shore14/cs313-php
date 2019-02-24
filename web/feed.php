@@ -22,7 +22,7 @@
 
           foreach($content as $row)
           {
-            echo '<div class="cards">' . $row['title'] . '<br>' . $row['body'] . '<br><br></div><br><br>';
+            echo '<div class="cards">' . strtoupper($row['title']) . '<br>' . $row['body'] . '<br><br></div><br><br>';
           }
         ?>
     

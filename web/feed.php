@@ -36,7 +36,7 @@
        <form action="create.php" method="POST" class="insert-card">
            <input type="text" placeholder="title" name="title">
            <input type="text" placeholder="comment" name="body">
-           <input type="radio" name="type" value="goodDeed"> good deed <br>            
+           <input type="radio" name="type" value="goodDeed" checked="checked"> good deed <br>            
             <input type="radio" name="type" value="quote"> quote <br>            
            <button type="submit">Add a nice thing</button>
        </form>

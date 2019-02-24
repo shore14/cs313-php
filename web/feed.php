@@ -16,8 +16,8 @@
        <h1>Put nice things here!<h1> 
        <div class="items">
          <?php
-            $content = $db->query('SELECT title, body,
-            (SELECT t.type FROM types t join cards c ON t.id = c.type_id) 
+            $content = $db->query('SELECT title, body
+            -- (SELECT t.type FROM types t join cards c ON t.id = c.type_id) 
             FROM cards ORDER BY id DESC LIMIT 10');
             // $content2 = $db->query('SELECT c.title, c.body, t.type
             //                         FROM cards c, types t
@@ -27,7 +27,7 @@
 
           foreach($content as $row)
           {
-            echo '<div class="cards">'. $row['type_id'] . strtoupper($row['title']) . '<br>' . $row['body'] . '<br><br></div><br><br>';
+            echo '<div class="cards">'. strtoupper($row['title']) . '<br>' . $row['body'] . '<br><br></div><br><br>';
           }
         ?>
     

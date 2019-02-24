@@ -1,11 +1,5 @@
   
-/* .feedbox 
-  width 400px
-  margin 0 auto
-  border solid 1px #ccc
-  border-radius 5px
-  overflow hidden
-}   */
+
 .feedbox{
    width: 700px;
    margin: auto;
@@ -15,6 +9,11 @@
   h1 {
     text-align: center;
     color: darkmagenta;
+ }
+
+ .cards{
+   border: solid 1px black;
+   margin: auto;
  }
   .input-card{
     width: 300;

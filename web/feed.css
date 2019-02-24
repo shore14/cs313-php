@@ -17,7 +17,7 @@
    width: 500px;
  }
  .items{
-   overflow: scroll;
+   overflow-y: scroll;
  }
   .input-card{
     width: 300;

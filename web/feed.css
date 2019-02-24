@@ -16,6 +16,9 @@
    margin: auto;
    width: 500px;
  }
+ .items{
+   overflow: scroll;
+ }
   .input-card{
     width: 300;
  }

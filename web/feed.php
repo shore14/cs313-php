@@ -20,7 +20,7 @@
              
             $content2 = $db->query('SELECT c.title, c.body, t.type
                                     FROM cards c
-                                    JOIN types t ON c.type_id = t.type')
+                                    JOIN types t ON c.type_id = t.id')
            // $content->execute();
           // $rows = $content->fetchAll(PDO::FETCH_ASSOC);
 

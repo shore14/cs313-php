@@ -31,6 +31,7 @@
        <form action="create.php" method="POST" class="insert-card">
            <input type="text" placeholder="title" name="title">
            <input type="text" placeholder="comment" name="body">
+           <button type="submit">Add a nice thing</button>
        </form>
     </div>
 </body>

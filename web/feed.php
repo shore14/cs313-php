@@ -17,8 +17,8 @@
        <div class="items">
     <?php
       $content = $db->query('SELECT title, body FROM cards ORDER BY id DESC LIMIT 10');
-      $content->execute();
-      $rows = $content->fetchAll(PDO::FETCH_ASSOC);
+      // $content->execute();
+      // $rows = $content->fetchAll(PDO::FETCH_ASSOC);
 
       foreach($content as $row)
       {

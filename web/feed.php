@@ -18,7 +18,7 @@
          <?php
             // $content = $db->query('SELECT title, body FROM cards ORDER BY id DESC LIMIT 10');
              
-            $content2 = $db->query('SELECT c.title, c.body, t.type
+            $content2 = $db->query('SELECT c.title, c.body, t.context
                                     FROM cards c
                                     JOIN types t ON c.type_id = t.id
                                     ORDER BY c.id DESC LIMIT 10');

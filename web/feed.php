@@ -16,18 +16,22 @@
        <h1>Put nice things here!<h1> 
        <div class="items">
          <?php
-            $content = $db->query('SELECT title, body FROM cards ORDER BY id DESC LIMIT 10');
+            // $content = $db->query('SELECT title, body FROM cards ORDER BY id DESC LIMIT 10');
              
-            // $content2 = $db->query('SELECT c.title, c.body, t.type
-            //                         FROM cards c
-            //                         JOIN types t ON c.type_id = t.id')
+            $content2 = $db->query('SELECT c.title, c.body, t.type
+                                    FROM cards c
+                                    JOIN types t ON c.type_id = t.id')
            // $content->execute();
           // $rows = $content->fetchAll(PDO::FETCH_ASSOC);
-
           foreach($content as $row)
           {
             echo '<div class="cards">'. strtoupper($row['title']) . '<br>' . $row['body'] . '<br><br></div><br><br>';
           }
+
+          // foreach($content as $row)
+          // {
+          //   echo '<div class="cards">'. strtoupper($row['title']) . '<br>' . $row['body'] . '<br><br></div><br><br>';
+          // }
         ?>
     
 

@@ -7,6 +7,7 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>See nice things</title>
     <link rel="stylesheet" type="text/css"  href="feed.css"/>
 </head>
@@ -16,24 +17,18 @@
        <h1>Put nice things here!</h1> 
        <div class="items">
          <?php
-            // $content = $db->query('SELECT title, body FROM cards ORDER BY id DESC LIMIT 10');
-             
+       
             $content2 = $db->query('SELECT c.title, c.body, t.context
                                     FROM cards c
                                     JOIN types t ON c.type_id = t.id
                                     ORDER BY c.id DESC LIMIT 10');
-           // $content->execute();
-          // $rows = $content->fetchAll(PDO::FETCH_ASSOC);
+            $content->fetchAll(PDO::FETCH_ASSOC);
           foreach($content2 as $row)
           {
             echo '<div class="cardshead">' . strtoupper($row['context']) . '</div>';
             echo '<div class="cards">' . strtoupper($row['title']) . '<br>' . $row['body'] . '<br><br></div><br><br>';
           }
 
-          // foreach($content as $row)
-          // {
-          //   echo '<div class="cards">'. strtoupper($row['title']) . '<br>' . $row['body'] . '<br><br></div><br><br>';
-          // }
         ?>
     
 

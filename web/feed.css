@@ -5,7 +5,7 @@
    margin: auto;
    border: solid 2px #ccc;
    /* overflow: hidden; */
-   background-color: burlywood;
+   background-color: orangered;
 }
   h1 {
     text-align: center;
@@ -27,7 +27,7 @@
    height: 850px;
    width: 650px;
    margin: auto;
-   background-color: darkgray;
+   background-color: lightgray;
  }
   .input-card{
     width: 300;

@@ -5,6 +5,7 @@
    margin: auto;
    border: solid 2px #ccc;
    /* overflow: hidden; */
+   background-color: burlywood;
 }
   h1 {
     text-align: center;
@@ -24,6 +25,7 @@
  .items{
    overflow-y: scroll;
    height: 850px;
+   background-color: darkgray;
  }
   .input-card{
     width: 300;

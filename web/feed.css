@@ -15,11 +15,15 @@
  .cards{
    border: solid 1px black;
    margin: auto;
+   text-align: center;
+   color: darkblue;
    width: 500px;
  }
  .cardshead{
   border: solid 1px black;
   margin: auto;
+  text-align: center;
+  color: darkblue;
   width: 500px;
 }
  .items{
@@ -36,6 +40,7 @@
      display: inline-block;
      margin: 8px 0; 
      width: 100%;
+     text-align: center;
      box-sizing: input-card;
  }
 

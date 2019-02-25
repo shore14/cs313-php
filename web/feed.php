@@ -26,7 +26,7 @@
           // $rows = $content->fetchAll(PDO::FETCH_ASSOC);
           foreach($content2 as $row)
           {
-            echo '<div class="cardshead">' . $row['type'] . '<br>';
+            echo '<div class="cardshead">' . $row['type'] . '</div><br>';
             echo '<div class="cards">' . strtoupper($row['title']) . '<br>' . $row['body'] . '<br><br></div><br><br>';
           }
 

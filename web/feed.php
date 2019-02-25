@@ -13,7 +13,7 @@
 <body>
 
        <div class="feedbox">
-       <h1>Put nice things here!<h1> 
+       <h1>Put nice things here!</h1> 
        <div class="items">
          <?php
             // $content = $db->query('SELECT title, body FROM cards ORDER BY id DESC LIMIT 10');

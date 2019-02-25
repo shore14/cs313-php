@@ -20,12 +20,13 @@
              
             $content2 = $db->query('SELECT c.title, c.body, t.type
                                     FROM cards c
-                                    JOIN types t ON c.type_id = t.id');
+                                    JOIN types t ON c.type_id = t.id
+                                    ORDER BY id LIMIT 10');
            // $content->execute();
           // $rows = $content->fetchAll(PDO::FETCH_ASSOC);
           foreach($content2 as $row)
           {
-            echo '<div class="cards">' . $row['type'] . '<br>';
+            echo '<div class="cardshead">' . $row['type'] . '<br>';
             echo '<div class="cards">' . strtoupper($row['title']) . '<br>' . $row['body'] . '<br><br></div><br><br>';
           }
 

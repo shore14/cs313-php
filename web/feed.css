@@ -16,6 +16,11 @@
    margin: auto;
    width: 500px;
  }
+ .cardshead{
+  border: solid 1px black;
+  margin: auto;
+  width: 500px;
+}
  .items{
    overflow-y: scroll;
    height: 850px;

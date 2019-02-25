@@ -8,7 +8,7 @@
   // $state = $db->prepare('INSERT INTO cards (title, body) 
   //                       VALUES (:title, :body)'); 
   $state = $db->prepare('INSERT INTO cards (title, body, type) 
-                         VALUES (:title, :body, ("SELECT id FROM types where type = :typ"))'); 
+                         VALUES (:title, :body, SELECT id FROM types where type = :typ)'); 
   $state->bindValue(':title', $title, PDO::PARAM_STR);
   $state->bindValue(':body', $body, PDO::PARAM_STR);
   $state->bindValue(':typ', $type, PDO::PARAM_STR);

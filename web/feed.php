@@ -23,7 +23,7 @@
                                     JOIN types t ON c.type_id = t.id')
            // $content->execute();
           // $rows = $content->fetchAll(PDO::FETCH_ASSOC);
-          foreach($content as $row)
+          foreach($content2 as $row)
           {
             echo '<div class="cards">'. strtoupper($row['c.title']) . '<br>' . $row['c.body'] . '<br><br></div><br><br>';
           }
